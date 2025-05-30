@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>電卓</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div id="output"><p class="output_text"></p></div>
+      <section class="first flex">
+        <button id="AC">AC</button>
+        <button id="smash">➗️</button>
+      </section>
+      <section class="second flex">
+        <button id="seven">7</button>
+        <button id="eight">8</button>
+        <button id="nine">9</button>
+        <button id="cross">✖</button>
+      </section>
+      <section class="second flex">
+        <button id="four">4</button>
+        <button id="five">5</button>
+        <button id="six">6</button>
+        <button id="minus">➖️</button>
+      </section>
+      <section class="second flex">
+        <button id="one">1</button>
+        <button id="two">2</button>
+        <button id="three">3</button>
+        <button id="plus">➕️</button>
+      </section>
+      <section class="second flex">
+        <button id="zero">0</button>
+        <button id="dot">.</button>
+        <button id="reset">C</button>
+        <button id="equal">=</button>
+      </section>
+    </main>
+    <audio src="./audio/ボタン決定音.mp3" type="audio/mp3" id="sound"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
